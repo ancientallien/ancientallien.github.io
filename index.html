@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignement</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+          color: red;
+          text-align: center;
+        } 
+        </style>
+   </head>
+
+
+<body>
+  <h1 style="color:blue;text-align:center;"> css inside </h1>
+  <h2> css inside head</h1>
+  <h3 id="myid">css with outer with id</h2>
+  <h4 class="myclass">css with outer with class</h2>
+  <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button> 
+  <h3 id="demo"></h3>
+  <h6 id ="outer">javascript outside</h2>
+
+
+    <script>
+        document.getElementById("demo").innerHTML = "time dislpay area";
+    </script>
+ <!--  it provide using of javascript code -->
+  <script src="script.js"></script>
+</body>
+</html>
